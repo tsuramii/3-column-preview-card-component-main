@@ -534,8 +534,28 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
+.m-11 {
+  margin: 2.75rem;
+}
+
+.m-12 {
+  margin: 3rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .min-h-\[5vh\] {
@@ -544,6 +564,65 @@ video {
 
 .min-h-\[95vh\] {
   min-height: 95vh;
+}
+
+.max-w-xs {
+  max-width: 20rem;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[1rem\] {
+  max-width: 1rem;
+}
+
+.max-w-\[10rem\] {
+  max-width: 10rem;
+}
+
+.max-w-\[15rem\] {
+  max-width: 15rem;
+}
+
+.max-w-\[14rem\] {
+  max-width: 14rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-verydarkcyan {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 66 65 / var(--tw-border-opacity));
 }
 
 .bg-verylightgray {
@@ -559,6 +638,11 @@ video {
 .bg-verydarkcyan {
   --tw-bg-opacity: 1;
   background-color: rgb(0 66 65 / var(--tw-bg-opacity));
+}
+
+.bg-brightorange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 136 38 / var(--tw-bg-opacity));
 }
 
 .pt-2 {
@@ -596,6 +680,16 @@ video {
   color: rgb(242 242 242 / var(--tw-text-opacity));
 }
 
+.text-brightorange {
+  --tw-text-opacity: 1;
+  color: rgb(227 136 38 / var(--tw-text-opacity));
+}
+
+.text-darkcyan {
+  --tw-text-opacity: 1;
+  color: rgb(0 105 112 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -610,6 +704,23 @@ video {
   transition-duration: 150ms;
 }
 
+.hover\:text-base:hover {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.hover\:text-brightorange\/10:hover {
+  color: rgb(227 136 38 / 0.1);
+}
+
+.hover\:text-brightorange\/70:hover {
+  color: rgb(227 136 38 / 0.7);
+}
+
+.hover\:text-brightorange\/80:hover {
+  color: rgb(227 136 38 / 0.8);
+}
+
 .\[\&\>a\]\:text-darkcyan>a {
   --tw-text-opacity: 1;
   color: rgb(0 105 112 / var(--tw-text-opacity));
@@ -618,4 +729,196 @@ video {
 .\[\&\>a\]\:text-brightorange>a {
   --tw-text-opacity: 1;
   color: rgb(227 136 38 / var(--tw-text-opacity));
+}
+
+.\[\&\>li\>\]\:p-5>li> {
+  padding: 1.25rem;
+}
+
+.\[\&\>li\>button\]\:mx-4>li>button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.\[\&\>li\>button\]\:my-4>li>button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.\[\&\>li\>button\]\:mt-4>li>button {
+  margin-top: 1rem;
+}
+
+.\[\&\>li\>button\]\:mt-5>li>button {
+  margin-top: 1.25rem;
+}
+
+.\[\&\>li\>button\]\:text-clip>li>button {
+  text-overflow: clip;
+}
+
+.\[\&\>li\>button\]\:rounded-lg>li>button {
+  border-radius: 0.5rem;
+}
+
+.\[\&\>li\>button\]\:rounded-xl>li>button {
+  border-radius: 0.75rem;
+}
+
+.\[\&\>li\>button\]\:rounded-2xl>li>button {
+  border-radius: 1rem;
+}
+
+.\[\&\>li\>button\]\:bg-verylightgray>li>button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity));
+}
+
+.\[\&\>li\>button\]\:p-2>li>button {
+  padding: 0.5rem;
+}
+
+.\[\&\>li\>button\]\:p-4>li>button {
+  padding: 1rem;
+}
+
+.\[\&\>li\>button\]\:p-3>li>button {
+  padding: 0.75rem;
+}
+
+.\[\&\>li\>button\]\:p-1>li>button {
+  padding: 0.25rem;
+}
+
+.\[\&\>li\>button\]\:py-2>li>button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.\[\&\>li\>button\]\:px-4>li>button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.\[\&\>li\>button\]\:text-xs>li>button {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.\[\&\>li\>button\]\:text-base>li>button {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.\[\&\>li\>button\]\:text-opacity-0>li>button {
+  --tw-text-opacity: 0;
+}
+
+.\[\&\>li\>h1\]\:my-5>li>h1 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.\[\&\>li\>h1\]\:p-5>li>h1 {
+  padding: 1.25rem;
+}
+
+.\[\&\>li\>h1\]\:font-bigshouldersdisplay>li>h1 {
+  font-family: Big Shoulders Display, cursive;
+}
+
+.\[\&\>li\>h1\]\:text-2xl>li>h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.\[\&\>li\>h1\]\:text-xl>li>h1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>li\>img\]\:w-5>li>img {
+  width: 1.25rem;
+}
+
+.\[\&\>li\>img\]\:w-10>li>img {
+  width: 2.5rem;
+}
+
+.\[\&\>li\>img\]\:w-12>li>img {
+  width: 3rem;
+}
+
+.\[\&\>li\>img\]\:w-11>li>img {
+  width: 2.75rem;
+}
+
+.\[\&\>li\>img\]\:fill-brightorange>li>img {
+  fill: #e38826;
+}
+
+.\[\&\>li\>img\]\:p-5>li>img {
+  padding: 1.25rem;
+}
+
+.\[\&\>li\>p\]\:text-2xl>li>p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.\[\&\>li\>p\]\:text-xs>li>p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.\[\&\>li\>p\]\:font-light>li>p {
+  font-weight: 300;
+}
+
+.\[\&\>li\>p\]\:leading-3>li>p {
+  line-height: .75rem;
+}
+
+.\[\&\>li\>p\]\:leading-7>li>p {
+  line-height: 1.75rem;
+}
+
+.\[\&\>li\>p\]\:leading-6>li>p {
+  line-height: 1.5rem;
+}
+
+.\[\&\>li\>p\]\:leading-5>li>p {
+  line-height: 1.25rem;
+}
+
+.\[\&\>li\>p\]\:text-verylightgray\/10>li>p {
+  color: rgb(242 242 242 / 0.1);
+}
+
+.\[\&\>li\>p\]\:text-verylightgray\/50>li>p {
+  color: rgb(242 242 242 / 0.5);
+}
+
+.\[\&\>li\>p\]\:text-verylightgray\/60>li>p {
+  color: rgb(242 242 242 / 0.6);
+}
+
+.\[\&\>li\>p\]\:text-verylightgray\/80>li>p {
+  color: rgb(242 242 242 / 0.8);
+}
+
+.\[\&\>li\>p\]\:text-verylightgray\/70>li>p {
+  color: rgb(242 242 242 / 0.7);
+}
+
+.\[\&\>li\]\:p-5>li {
+  padding: 1.25rem;
+}
+
+.\[\&\>li\]\:p-6>li {
+  padding: 1.5rem;
+}
+
+.\[\&\>li\]\:p-7>li {
+  padding: 1.75rem;
 }
